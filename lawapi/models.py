@@ -12,4 +12,4 @@ class Law(models.Model):
     source_link = models.CharField(max_length=500, blank=True, default='')
 
     def __str__(self):
-        return self.targeted_country
+        return self.targeted_country.country_name

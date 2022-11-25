@@ -12,4 +12,4 @@ class ThematicArea(models.Model):
     support_for_civil_rights = models.FloatField(max_length=1, blank=False)
 
     def __str__(self):
-        return self.country_of_focus
+        return self.country_of_focus.country_name

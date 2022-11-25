@@ -15,5 +15,5 @@ class CountryData(models.Model):
     otherLaws = models.ManyToManyField(Law, blank=True)
 
     def __str__(self):
-        return self.country_name
+        return self.country.country_name
 
