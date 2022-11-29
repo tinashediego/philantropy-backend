@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'sadcapi',
     'lawapi',
     'thematicapi',
+    'perceptionapi',
+    'reportsapi',
     'countrylist',
     'rest_framework',
     'corsheaders',
